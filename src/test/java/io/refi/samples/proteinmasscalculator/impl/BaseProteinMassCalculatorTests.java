@@ -58,6 +58,8 @@ class BaseProteinMassCalculatorApplicationTests {
         assertTrue(resp.isError);
         assertEquals(resp.proteinMass, -1.0);
         assertEquals(resp.errorString, "Invalid symbol(s) detected: [X, Z]");
+
+        assertEquals(calc.errorCount.count(), 1.0);
 	}
 
 }

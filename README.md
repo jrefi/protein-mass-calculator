@@ -1,6 +1,8 @@
 # Protein Mass Calcuator
 A sample service implemented in Spring Boot which calculates the mass of a given protein string. This project is based on this [Rosalind Problem](http://rosalind.info/problems/prtm/).
 
+The service accepts protein strings comprised of amino acid symbols found in this [table](http://rosalind.info/glossary/monoisotopic-mass-table/). Valid requests will received the calculated mass as a result while invalid requests will receive an message describing the error.
+
 ## Getting Started
 
 ### Prerequisites
