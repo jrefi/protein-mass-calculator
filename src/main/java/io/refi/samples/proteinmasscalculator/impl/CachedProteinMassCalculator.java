@@ -18,9 +18,19 @@ import io.refi.samples.proteinmasscalculator.models.ProteinMassResponse;
 @Primary
 @Service
 public class CachedProteinMassCalculator extends BaseProteinMassCalculator {
-    
+    /**
+     * Cache to store already calculated mass values
+     */
     private final ProteinMassCache cache;
+
+    /**
+     * Counter metric tracking the number of requests that hit the cache
+     */
     public final Counter cacheHits;
+
+    /**
+     * Counter metric tracking the number of requests missing the cache
+     */
     public final Counter cacheMisses;
 
     @Autowired

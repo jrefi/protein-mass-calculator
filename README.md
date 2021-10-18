@@ -99,5 +99,4 @@ The `models` directory contains the following items:
 | `ProteinMassRequest.java` | Model used to request a protein mass calculation |
 | `ProteinMassResponse.java` | Model returned as the result of a protein mass calculation |
 
-## Extensions and Enhancements
-* 
+Full API documentation is available at https://jrefi.github.io/protein-mass-calculator

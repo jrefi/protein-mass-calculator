@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"io.refi.samples.proteinmasscalculator"},{"l":"io.refi.samples.proteinmasscalculator.impl"},{"l":"io.refi.samples.proteinmasscalculator.interfaces"},{"l":"io.refi.samples.proteinmasscalculator.models"}]

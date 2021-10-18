@@ -25,12 +25,29 @@ import io.refi.samples.proteinmasscalculator.models.ProteinMassResponse;
  */
 public class BaseProteinMassCalculator implements ProteinMassCalculator {
     
+    /**
+     * Table used to look up amino acid weights for calculation
+     */
     public final MonoistopicMassTable massTable;
+
+    /**
+     * Registry for metrics
+     */
     public final MeterRegistry meterRegistry;
 
+    /**
+     * Timer metric tracking calculation times
+     */
     public final LongTaskTimer calculationTimes;
+    
+    /**
+     * Counter metric tracking the number of invalid requests.
+     */
     public final Counter errorCount;
 
+    /**
+     * Logger
+     */
     protected Logger logger;
 
     @Autowired
