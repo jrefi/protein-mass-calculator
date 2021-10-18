@@ -1,7 +1,7 @@
 package io.refi.samples.proteinmasscalculator.interfaces;
 
 /**
- * Interface for all MonoistopicMassTable implementations
+ * Table containing weight values for amino acid symbols.
  */
 public interface MonoistopicMassTable {
    

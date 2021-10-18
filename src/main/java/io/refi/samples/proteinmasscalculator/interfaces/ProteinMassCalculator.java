@@ -4,7 +4,7 @@ import io.refi.samples.proteinmasscalculator.models.ProteinMassRequest;
 import io.refi.samples.proteinmasscalculator.models.ProteinMassResponse;
 
 /**
- * Interface for all ProteinMassCalculator implementations
+ * Service which calculates the mass of a given protein string.
  */
 public interface ProteinMassCalculator {
 

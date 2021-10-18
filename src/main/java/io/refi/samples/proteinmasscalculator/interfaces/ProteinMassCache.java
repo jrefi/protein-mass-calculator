@@ -3,7 +3,7 @@ package io.refi.samples.proteinmasscalculator.interfaces;
 import java.util.Map;
 
 /**
- * Interface for all ProteinMassCache implementations
+ * Cache containing protin string/mass entries.
  */
 public interface ProteinMassCache {
     
