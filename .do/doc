@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -ex
+CMD_ARGS=("$@")
+DO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+rm -rf docs/*
+$DO_DIR/dev ./mvnw javadoc:javadoc
+cp -r target/site/apidocs/* docs/
